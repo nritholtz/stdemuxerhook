@@ -2,10 +2,11 @@ package stdemuxerhook
 
 import (
 	"fmt"
-	"github.com/Sirupsen/logrus"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/sirupsen/logrus"
 )
 
 // smallFields is a small size data set for benchmarking
